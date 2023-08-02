@@ -10,13 +10,17 @@
       background-color: #f1f1f1;
       margin: 0;
       padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
 
     form {
       max-width: 500px;
-      margin: 0 auto;
+      width: 90%;
       padding: 20px;
-      background-color: #fff;
+      background-color: #a77caf;
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
@@ -32,15 +36,18 @@
       margin-bottom: 5px;
     }
 
+ 
     .form-control {
-      width: 100%;
-      padding: 10px;
-      font-size: 14px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      outline: none;
-      transition: border-color 0.3s ease;
-    }
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        transition: border-color 0.3s ease;
+        box-sizing: border-box; /* This line was added to fix extra spaces */
+      }
+      
 
     .form-control:focus {
       border-color: #3498db;
@@ -61,6 +68,13 @@
     .form-btn:hover {
       background-color: #2184b2;
     }
+
+    /* Responsive styles */
+    @media screen and (max-width: 600px) {
+      form {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -73,6 +87,10 @@
       <label for="email" class="form-label">Email:</label>
       <input type="email" id="email" name="email" class="form-control" required>
     </div>
+    <div class="form-group">
+        <label for="mobile" class="form-label">Mobile:</label>
+        <input type="number" id="mobile" name="mobile" class="form-control" required>
+      </div>
     <div class="form-group">
       <label for="message" class="form-label">Message:</label>
       <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
