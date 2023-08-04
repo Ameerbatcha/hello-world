@@ -52,7 +52,7 @@
 
 
     .form-control:focus {
-      border-color: #3498db;
+      border-color: #417aa0;
     }
 
     .form-btn {
@@ -102,7 +102,7 @@
       <label for="message" class="form-label">Message:</label>
       <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
     </div>
-    <button type="submit" class="form-btn">Submit</button>
+    <button type="submit" class="form-btn">Finish</button>
   </form>
 </body>
 
