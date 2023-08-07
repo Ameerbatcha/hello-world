@@ -103,6 +103,10 @@
       <input type="number" id="mobile" name="mobile" class="form-control" required>
     </div>
     <div class="form-group">
+      <label for="address" class="form-label">Address:</label>
+      <textarea id="address" name="address" class="form-control" required>
+    </div>
+    <div class="form-group">
       <label for="message" class="form-label">Message:</label>
       <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
     </div>
