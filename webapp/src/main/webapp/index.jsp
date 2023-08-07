@@ -86,10 +86,7 @@
       <label for="fname" class="form-label">First Name:</label>
       <input type="text" id="fname" name="fname" class="form-control" required>
     </div>
-    <div class="form-group">
-      <label for="mname" class="form-label">Middle Name:</label>
-      <input type="text" id="mname" name="mname" class="form-control" required>
-    </div>
+  
     <div class="form-group">
       <label for="lname" class="form-label">Last Name:</label>
       <input type="text" id="lname" name="lname" class="form-control" required>
