@@ -97,20 +97,20 @@
     <div class="form-group">
       <label for="email" class="form-label">Email:</label>
       <input type="email" id="email" name="email" class="form-control" required>
-    </div>
+    </div>cd hel
     <div class="form-group">
       <label for="mobile" class="form-label">Mobile:</label>
       <input type="number" id="mobile" name="mobile" class="form-control" required>
     </div>
     <div class="form-group">
       <label for="address" class="form-label">Address:</label>
-      <textarea id="address" name="address" class="form-control" required>
+      <textarea id="address" name="address" class="form-control" required></textarea>
     </div>
     <div class="form-group">
       <label for="message" class="form-label">Message:</label>
       <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
     </div>
-    <button type="submit" class="form-btn">Submit the form</button>
+    <button type="submit" class="form-btn">Submit form</button>
   </form>
 </body>
 
