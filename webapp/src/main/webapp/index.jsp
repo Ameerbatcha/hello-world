@@ -95,7 +95,7 @@
       <input type="text" id="lname" name="lname" class="form-control" required>
     </div>
     <div class="form-group">
-      <label for="email" class="form-label">Email:</label>
+      <label for="email" class="form-label">Email Address:</label>
       <input type="email" id="email" name="email" class="form-control" required>
     </div>cd hel
     <div class="form-group">
