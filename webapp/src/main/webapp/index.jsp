@@ -99,7 +99,7 @@
       <input type="email" id="email" name="email" class="form-control" required>
     </div>cd hel
     <div class="form-group">
-      <label for="mobile" class="form-label">Mobile Number:</label>
+      <label for="mobile" class="form-label">Mobile No:</label>
       <input type="number" id="mobile" name="mobile" class="form-control" required>
     </div>
     <div class="form-group">
