@@ -107,7 +107,7 @@
       <textarea id="address" name="address" class="form-control" required></textarea>
     </div>
     <div class="form-group">
-      <label for="message" class="form-label">Message:</label>
+      <label for="message" class="form-label">Some Message:</label>
       <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
     </div>
     <button type="submit" class="form-btn">Submit form</button>
