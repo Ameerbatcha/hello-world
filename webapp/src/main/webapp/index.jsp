@@ -8,8 +8,8 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f1f1f1;
-      margin: 0;
+      background-color: #c31ed2;
+      margin: 0;gi
       padding: 0;
       display: flex;
       justify-content: center;
@@ -21,7 +21,7 @@
       max-width: 500px;
       width: 90%;
       padding: 20px;
-      background-color: #a77caf;
+      background-color: #000000;
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
@@ -58,8 +58,8 @@
     .form-btn {
       width: 100%;
       padding: 10px;
-      background-color: #77ff00;
-      color: #92b000;
+      background-color: #0400ff;
+      color: #000000;
       font-size: 16px;
       font-weight: bold;
       border: none;
@@ -68,7 +68,7 @@
     }
 
     .form-btn:hover {
-      background-color: #2184b2;
+      background-color: #ff00f2;
     }
 
     /* Responsive styles */
