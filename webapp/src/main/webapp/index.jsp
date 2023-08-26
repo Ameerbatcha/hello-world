@@ -9,7 +9,7 @@
     body {
       font-family: Arial, sans-serif;
       background-color: #c31ed2;
-      margin: 0;gi
+      margin: 0;a
       padding: 0;
       display: flex;
       justify-content: center;
@@ -21,7 +21,7 @@
       max-width: 500px;
       width: 90%;
       padding: 20px;
-      background-color: #000000;
+      background-color: #ff5e5e;
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
@@ -59,7 +59,7 @@
       width: 100%;
       padding: 10px;
       background-color: #0400ff;
-      color: #000000;
+      color: #ffffff;
       font-size: 16px;
       font-weight: bold;
       border: none;
